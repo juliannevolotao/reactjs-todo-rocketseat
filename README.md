@@ -1,50 +1,58 @@
-# React + TypeScript + Vite
+<h2 align="center">
+    <img alt="TODO" src="./src/assets/Logo.svg" width="230px" />
+</h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h4 align="center">
+  :ballot_box_with_check: Todo List | React & Typescript
+</h4>
+ 
+<p align="center">
+   
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  :heart: <a href="#heart-o-projeto">O projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  :computer: <a href="#computer-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  :gem: <a href="#moon-iniciando-a-aplicação"> Iniciando a aplicação </a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br>
+<br>
 
-## Expanding the ESLint configuration
+## :heart: O projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Este é um projeto de lista de tarefas desenvolvido como parte das atividades do curso de React oferecido pela plataforma da Rocketseat.
 
-- Configure the top-level `parserOptions` property like this:
+<br>
+<br>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## :computer: Tecnologias
+- [Reactjs](https://pt-br.reactjs.org/), [Vitejs](https://vite.dev/)
+- [Typescript](https://www.typescriptlang.org/)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+<br>
+<br>
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+## :moon: Iniciando a aplicação 
+
+**1.** Clone o repositório para sua máquina usando o comando `git clone https://github.com/juliannevolotao/reactjs-todo-rocketseat.git` no local desejado através do terminal. Em seguida acesse a pasta do projeto com o comando `cd reactjs-todo-rocketseat`.
+
+<br>
+
+**2.** Execute o comando `yarn` ou `npm install` através do terminal para instalar as dependências.
+
+<br>
+
+**3.** Por fim, rode a aplicação com `yarn dev` ou `npm run dev`. Se tudo ocorrer bem abra [http://localhost:5173](http://localhost:5173/) no navegador para visualizar o projeto ou a porta indicada no terminal.
+
+<br>
+<br>
+
+<h5 align="center">
+  :heart: Projeto desenvolvido por Julianne Volotão.
+</h5>
+
+<br>
+<br>
