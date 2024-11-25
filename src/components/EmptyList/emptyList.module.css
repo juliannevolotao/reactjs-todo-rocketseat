@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 64px 0;
+  border-radius: 8px;
+  border-top: 1px solid #333;
+}
+
+.container svg {
+  color: var(--gray-400);
+  margin-bottom: 16px;
+}
+
+.container p {
+  color: var(--gray-300);
+  margin: 0;
+}
+
+.container p:first-of-type {
+  font-weight: bold;
+}

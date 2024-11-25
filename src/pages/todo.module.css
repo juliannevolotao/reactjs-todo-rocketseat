@@ -1,0 +1,115 @@
+.container {
+  /* max-width: 736px; */
+  width: 100vw;
+  height: 100vh;
+}
+.content {
+  max-width: 736px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .content {
+    max-width: 90vw;
+  }
+}
+
+.mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 0 40px;
+}
+
+.buttonContainer {
+  height: 54px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonContainer input {
+  height: 54px;
+  width: 100%;
+  border: 1px solid transparent;
+  outline: none;
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+  padding: 1rem;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.buttonContainer input:focus {
+  border-color: var(--purple);
+}
+
+.buttonContainer input::placeholder {
+  color: var(--gray-300);
+}
+
+.buttonContainer button {
+  border: none;
+  height: 54px;
+  width: 90px;
+  margin-left: 8px;
+  outline: none;
+  border-radius: 8px;
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.buttonContainer button:hover {
+  background-color: var(--blue);
+}
+
+.buttonContainer button svg {
+  margin-left: 4px;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.listContainer_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 24px 0;
+}
+
+.listContainer_header h3 {
+  font-size: 0.875rem;
+  color: var(--purple);
+  display: flex;
+  align-items: center;
+}
+.listContainer_header h3:first-of-type {
+  color: var(--blue);
+}
+.displayValue {
+  padding: 2px 8px;
+  background-color: var(--gray-400);
+  margin-left: 8px;
+  color: white;
+  text-align: center;
+  border-radius: 40px;
+  font-size: 12px;
+  min-width: 30px;
+  color: var(--gray-200);
+}
